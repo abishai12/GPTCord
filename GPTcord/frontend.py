@@ -3,7 +3,7 @@ from cryptography.fernet import Fernet
 from client import main
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-client.connect(("192.168.0.18", 4412)) #need public ip of server (10.152.181.17)
+client.connect(("192.168.0.18", 4412)) #need public ip of server 
 
 customtkinter.set_appearance_mode("dark")
 customtkinter.set_default_color_theme("green")
